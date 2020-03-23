@@ -1,0 +1,138 @@
+#set link auto on
+Options +FollowSymLinks -MultiViews
+DirectoryIndex homepage.php
+Options -Indexes
+RewriteEngine on
+
+
+
+
+
+RewriteRule ^(admin)($|/) - [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !(\.[a-zA-Z0-9]{1,5}|/)$
+
+#RewriteCond %{HTTPS} !on
+#RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+
+RewriteRule (.*)$ http://localhost/viveka/$1/ [R=301,L]
+
+ErrorDocument 403 http://localhost/viveka/403.html
+ErrorDocument 404 http://localhost/viveka/
+ErrorDocument 401 http://localhost/viveka/401.html
+ErrorDocument 500 http://localhost/viveka/500.html
+ErrorDocument 503 http://localhost/viveka/503.html
+
+RewriteRule ^403.html$ 403.php [L]
+RewriteRule ^404.html$ 404.php [L]
+RewriteRule ^401.html$ 401.php [L]
+RewriteRule ^500.html$ 500.php [L]
+RewriteRule ^503.html$ 503.php [L]
+
+
+
+
+
+
+RewriteRule ^logout/$ logout.php [QSA,L] 
+
+
+
+
+
+
+RewriteRule ^about_us/$ about.php [QSA,L] 
+
+
+
+
+
+RewriteRule ^contact_us/$ contact_us.php [QSA,L] 
+
+
+
+
+
+RewriteRule ^cart/$ cart.php [QSA,L] 
+
+
+
+
+
+RewriteRule ^checkout/$ checkout.php [QSA,L]
+
+
+
+
+
+
+RewriteRule ^privacy-policy/$ privacypolicy.php [QSA,L] 
+
+
+
+
+
+RewriteRule ^terms-of-service/$ termsofservice.php [QSA,L]
+
+#RewriteRule ^account/$ myaccount.php [QSA,L] 
+
+
+
+
+
+RewriteRule ^account/([^/]*)/$ myaccount.php?page=$1 [QSA,L]
+
+
+
+
+
+RewriteRule ^account/([^/]*)/([^/]*)/$ myaccount.php?page=$1&ordid=$2 [QSA,L]
+
+
+
+
+
+RewriteRule ^account/([^/]*)/([^/]*)/([^/]*)/$ myaccount.php?page=$1&addtype=$2&addid=$3 [QSA,L]
+
+
+
+
+
+
+RewriteRule ^paymentrequest/$ paymentrequest.php [QSA,L] 
+
+
+
+
+
+RewriteRule ^order/$ paymentresponse.php [QSA,L] 
+
+
+
+
+
+
+RewriteRule ^([^/]*)/([^/]*)/$ productlist.php?cslug=$1&page=$2 [QSA,L]
+
+
+
+
+
+RewriteRule ^([^/]*)/$ products.php?pslug=$1 [QSA,L]
+
+#RewriteRule ^([^/]*)/([^/]*)/([^/]*)/$ productlist.php?cslug=$1&option=$2&page=$3 [QSA,L]
+#RewriteRule ^product/([^/]*)/([^/]*)/([^/]*)/([^/]*)/$ productlist.php?pslug=$1&cslug=$2&option=$3&page=$4 [QSA,L]
+
+AddType text/css cssgz
+AddType text/javascript jsgz
+AddEncoding x-gzip .cssgz .jsgz
+# for all files in min directory
+FileETag None
+
+<IfModule mod_headers.c>
+  <FilesMatch "\.(ttf|ttc|otf|eot|woff|woff2|font.css|css|js)$">
+    Header set Access-Control-Allow-Origin "*"
+  </FilesMatch>
+</IfModule>
