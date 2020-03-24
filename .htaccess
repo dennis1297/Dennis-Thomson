@@ -17,7 +17,7 @@ RewriteCond %{REQUEST_URI} !(\.[a-zA-Z0-9]{1,5}|/)$
 #RewriteCond %{HTTPS} !on
 #RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
 
-RewriteRule (.*)$ http://localhost/viveka/$1/ [R=301,L]
+RewriteRule (.*)$ https://vivekaessencemart.com/ [R=301,L]
 
 ErrorDocument 403 http://localhost/viveka/403.html
 ErrorDocument 404 http://localhost/viveka/

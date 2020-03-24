@@ -1,0 +1,1 @@
+mau nykung mek? muter balik gih ajg

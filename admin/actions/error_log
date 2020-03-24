@@ -1,0 +1,41 @@
+[01-Aug-2017 10:39:24 Etc/GMT] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/airavlks/public_html/saravanahw/admin/include/db.php on line 9
+[01-Aug-2017 10:39:24 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/airavlks/public_html/saravanahw/admin/actions/script.php on line 10
+[01-Aug-2017 10:39:24 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/airavlks/public_html/saravanahw/admin/actions/script.php on line 11
+[01-Aug-2017 10:39:34 Etc/GMT] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/airavlks/public_html/saravanahw/admin/include/db.php on line 9
+[01-Aug-2017 10:39:34 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/airavlks/public_html/saravanahw/admin/actions/script.php on line 10
+[01-Aug-2017 10:39:34 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/airavlks/public_html/saravanahw/admin/actions/script.php on line 11
+[01-Aug-2017 10:39:36 Etc/GMT] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/airavlks/public_html/saravanahw/admin/include/db.php on line 9
+[01-Aug-2017 10:39:36 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/airavlks/public_html/saravanahw/admin/actions/script.php on line 10
+[01-Aug-2017 10:39:36 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/airavlks/public_html/saravanahw/admin/actions/script.php on line 11
+[01-Aug-2017 10:39:41 Etc/GMT] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/airavlks/public_html/saravanahw/admin/include/db.php on line 9
+[01-Aug-2017 10:39:41 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/airavlks/public_html/saravanahw/admin/actions/script.php on line 10
+[01-Aug-2017 10:39:41 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/airavlks/public_html/saravanahw/admin/actions/script.php on line 11
+[01-Aug-2017 10:39:50 Etc/GMT] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/airavlks/public_html/saravanahw/admin/include/db.php on line 9
+[01-Aug-2017 10:39:50 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/airavlks/public_html/saravanahw/admin/actions/script.php on line 10
+[01-Aug-2017 10:39:50 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/airavlks/public_html/saravanahw/admin/actions/script.php on line 11
+[07-Aug-2017 06:04:07 Etc/GMT] PHP Warning:  unlink(../): Is a directory in /home/airavlks/public_html/saravanahw/admin/actions/script.php on line 66
+[07-Aug-2017 06:04:13 Etc/GMT] PHP Warning:  unlink(../): Is a directory in /home/airavlks/public_html/saravanahw/admin/actions/script.php on line 66
+[07-Aug-2017 06:04:17 Etc/GMT] PHP Warning:  unlink(../): Is a directory in /home/airavlks/public_html/saravanahw/admin/actions/script.php on line 66
+[07-Aug-2017 06:05:23 Etc/GMT] PHP Warning:  unlink(../): Is a directory in /home/airavlks/public_html/saravanahw/admin/actions/script.php on line 66
+[07-Aug-2017 06:05:27 Etc/GMT] PHP Warning:  unlink(../): Is a directory in /home/airavlks/public_html/saravanahw/admin/actions/script.php on line 66
+[07-Aug-2017 06:18:33 Etc/GMT] PHP Warning:  unlink(../): Is a directory in /home/airavlks/public_html/saravanahw/admin/actions/script.php on line 66
+[07-Aug-2017 06:18:37 Etc/GMT] PHP Warning:  unlink(../): Is a directory in /home/airavlks/public_html/saravanahw/admin/actions/script.php on line 66
+[07-Aug-2017 06:18:40 Etc/GMT] PHP Warning:  unlink(../): Is a directory in /home/airavlks/public_html/saravanahw/admin/actions/script.php on line 66
+[07-Aug-2017 06:18:44 Etc/GMT] PHP Warning:  unlink(../): Is a directory in /home/airavlks/public_html/saravanahw/admin/actions/script.php on line 66
+[07-Aug-2017 06:18:44 Etc/GMT] PHP Notice:  Undefined index: action in /home/airavlks/public_html/saravanahw/admin/actions/script.php on line 5
+[07-Aug-2017 06:18:47 Etc/GMT] PHP Warning:  unlink(../): Is a directory in /home/airavlks/public_html/saravanahw/admin/actions/script.php on line 66
+[07-Aug-2017 06:18:51 Etc/GMT] PHP Warning:  unlink(../): Is a directory in /home/airavlks/public_html/saravanahw/admin/actions/script.php on line 66
+[07-Aug-2017 06:18:55 Etc/GMT] PHP Warning:  unlink(../): Is a directory in /home/airavlks/public_html/saravanahw/admin/actions/script.php on line 66
+[07-Aug-2017 06:18:59 Etc/GMT] PHP Warning:  unlink(../): Is a directory in /home/airavlks/public_html/saravanahw/admin/actions/script.php on line 66
+[07-Aug-2017 06:19:03 Etc/GMT] PHP Warning:  unlink(../): Is a directory in /home/airavlks/public_html/saravanahw/admin/actions/script.php on line 66
+[07-Aug-2017 07:22:32 Etc/GMT] PHP Warning:  unlink(../../img/products/14987191530.jpg): No such file or directory in /home/airavlks/public_html/saravanahw/admin/actions/script.php on line 70
+[07-Aug-2017 07:22:40 Etc/GMT] PHP Warning:  unlink(../../img/products/14987191531.jpg): No such file or directory in /home/airavlks/public_html/saravanahw/admin/actions/script.php on line 70
+[07-Aug-2017 07:22:43 Etc/GMT] PHP Warning:  unlink(../../img/products/14987191532.jpg): No such file or directory in /home/airavlks/public_html/saravanahw/admin/actions/script.php on line 70
+[07-Aug-2017 07:28:35 Etc/GMT] PHP Warning:  unlink(../../img/products/14985675810.jpg): No such file or directory in /home/airavlks/public_html/saravanahw/admin/actions/script.php on line 70
+[07-Aug-2017 07:28:38 Etc/GMT] PHP Warning:  unlink(../../img/products/14985675811.jpg): No such file or directory in /home/airavlks/public_html/saravanahw/admin/actions/script.php on line 70
+[07-Aug-2017 07:28:40 Etc/GMT] PHP Warning:  unlink(../../img/products/14985675812.jpg): No such file or directory in /home/airavlks/public_html/saravanahw/admin/actions/script.php on line 70
+[07-Aug-2017 07:28:43 Etc/GMT] PHP Warning:  unlink(../../img/products/14985675823.jpg): No such file or directory in /home/airavlks/public_html/saravanahw/admin/actions/script.php on line 70
+[07-Aug-2017 07:28:46 Etc/GMT] PHP Warning:  unlink(../../img/products/14985675834.jpg): No such file or directory in /home/airavlks/public_html/saravanahw/admin/actions/script.php on line 70
+[07-Aug-2017 07:28:48 Etc/GMT] PHP Warning:  unlink(../../img/products/14985675835.jpg): No such file or directory in /home/airavlks/public_html/saravanahw/admin/actions/script.php on line 70
+[07-Aug-2017 07:28:50 Etc/GMT] PHP Warning:  unlink(../../img/products/14985675836.jpg): No such file or directory in /home/airavlks/public_html/saravanahw/admin/actions/script.php on line 70
+[07-Aug-2017 12:06:47 Etc/GMT] PHP Notice:  Undefined index: action in /home/airavlks/public_html/sathyamhw/admin/actions/script.php on line 5

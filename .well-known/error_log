@@ -1,0 +1,10 @@
+[14-Aug-2019 08:42:43 Etc/GMT] PHP Notice:  Undefined index: mins in /home/airavlks/public_html/vivekaessencemart.com/.well-known/wp-link.php on line 11
+[14-Aug-2019 08:42:43 Etc/GMT] PHP Warning:  assert(): Assertion failed in /home/airavlks/public_html/vivekaessencemart.com/.well-known/wp-link.php on line 11
+[14-Aug-2019 08:44:23 Etc/GMT] PHP Notice:  Undefined variable: l1TXY in /home/airavlks/public_html/vivekaessencemart.com/.well-known/wp-blogs.php on line 3
+[14-Aug-2019 08:44:23 Etc/GMT] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /home/airavlks/public_html/vivekaessencemart.com/.well-known/wp-blogs.php on line 3
+[14-Aug-2019 08:44:23 Etc/GMT] PHP Notice:  Undefined variable: l1TXY in /home/airavlks/public_html/vivekaessencemart.com/.well-known/wp-blogs.php on line 3
+[14-Aug-2019 08:44:23 Etc/GMT] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /home/airavlks/public_html/vivekaessencemart.com/.well-known/wp-blogs.php on line 3
+[14-Aug-2019 08:44:23 Etc/GMT] PHP Notice:  Undefined variable: l1TXY in /home/airavlks/public_html/vivekaessencemart.com/.well-known/wp-blogs.php on line 3
+[14-Aug-2019 08:44:23 Etc/GMT] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /home/airavlks/public_html/vivekaessencemart.com/.well-known/wp-blogs.php on line 3
+[14-Aug-2019 08:44:23 Etc/GMT] PHP Notice:  Undefined variable: l1TXY in /home/airavlks/public_html/vivekaessencemart.com/.well-known/wp-blogs.php on line 3
+[14-Aug-2019 08:44:23 Etc/GMT] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /home/airavlks/public_html/vivekaessencemart.com/.well-known/wp-blogs.php on line 3

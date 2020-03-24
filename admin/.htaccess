@@ -1,0 +1,80 @@
+#set link auto on
+Options +FollowSymLinks -MultiViews
+DirectoryIndex login.php
+Options -Indexes
+RewriteEngine on
+
+php_value max_input_vars 3000
+
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !(\.[a-zA-Z0-9]{1,5}|/)$
+
+#RewriteCond %{HTTPS} !on
+#RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+
+RewriteRule (.*)$ http://localhost/viveka/admin/$1/ [R=301,L]
+
+ErrorDocument 403 http://localhost/viveka/admin/403.html
+ErrorDocument 404 http://localhost/viveka/admin/
+ErrorDocument 401 http://localhost/viveka/admin/401.html
+ErrorDocument 500 http://localhost/viveka/admin/500.html
+ErrorDocument 503 http://localhost/viveka/admin/503.html
+
+RewriteRule ^403.html$ 403.php [L]
+RewriteRule ^404.html$ 404.php [L]
+RewriteRule ^401.html$ 401.php [L]
+RewriteRule ^500.html$ 500.php [L]
+RewriteRule ^503.html$ 503.php [L]
+ 
+ 
+RewriteRule ^dashboard/$ dashboard.php [QSA,L]
+
+RewriteRule ^category-list/$ view_category.php [QSA,L]
+RewriteRule ^add-category/$ add_category.php [QSA,L]
+RewriteRule ^edit-category/([^/]*)/$ add_category.php?ctid=$1 [QSA,L]
+
+RewriteRule ^product-list/$ view_products.php [QSA,L]
+RewriteRule ^product_details/([^/]*)/$ product_details.php?page=$1 [QSA,L]
+RewriteRule ^product_details/([^/]*)/([^/]*)/$ product_details.php?page=$1&id=$2 [QSA,L] 
+
+
+RewriteRule ^subscription-list/$ subscriptionlist.php [QSA,L]
+RewriteRule ^orders-list/$ orderslist.php [QSA,L]
+RewriteRule ^orders/([^/]*)/$ order.php?orderid=$1 [QSA,L]
+RewriteRule ^print-invoice/([^/]*)/$ printinvoice.php?ordid=$1 [QSA,L]
+
+
+RewriteRule ^banner-list/$ bannerlist.php [QSA,L]
+RewriteRule ^add-banner/$ banner.php [QSA,L]
+RewriteRule ^edit-banner/([^/]*)/$ banner.php?id=$1 [QSA,L]
+
+RewriteRule ^view-options/$ view_options.php [QSA,L]
+RewriteRule ^add-options/$ addoptions.php [QSA,L]
+RewriteRule ^edit-options/([^/]*)/$ addoptions.php?opid=$1 [QSA,L]
+
+
+  
+RewriteRule ^view_customer/$ view_customer.php [QSA,L]  
+RewriteRule ^edit_customer/([^/]*)/$ edit_customer.php?id=$1 [QSA,L]
+
+
+
+
+
+
+
+RewriteRule ^change_password/$ change_password.php [QSA,L]  
+
+
+
+
+
+ 
+AddType text/css cssgz
+AddType text/javascript jsgz
+AddEncoding x-gzip .cssgz .jsgz
+# for all files in min directory
+FileETag None
