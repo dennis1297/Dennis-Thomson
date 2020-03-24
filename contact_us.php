@@ -23,8 +23,7 @@ include("functions.php");
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.546977799057!2d80.12785881477025!3d12.93681239087868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525f08f24ad66d%3A0xffab13b9dca4d936!2sM%20R%20Garden%20Ladies%20Hostel!5e0!3m2!1sen!2sin!4v1584770446947!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>        </div>
-
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d971.551977593782!2d80.27523342919397!3d13.086005899423796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265ff6e4d51d9%3A0xa0dd65e0203197b4!2s285%2F128%2C%20Wall%20Tax%20Rd%2C%20Edapalaiyam%2C%20George%20Town%2C%20Chennai%2C%20Tamil%20Nadu%20600003!5e0!3m2!1sen!2sin!4v1584972583141!5m2!1sen!2sin" width="1135" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
         <div class="col-md-6">
           <h3 class="page-subheading">Contact info</h3>
           <ul class="store_info">

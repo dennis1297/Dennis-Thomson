@@ -58,9 +58,9 @@ echo $filename;*/
 
     <div class="owl-carousel owl-theme main-carousel">
 
-      <div class="owl-slide" style="background-image: url('<?php echo URL?>images/slider/dennis.jpg');"></div>
+      <div class="owl-slide" style="background-image: url('<?php echo URL?>images/slider/Dennis.1.png');"></div>
 
-      <!--div class="owl-slide" style="background-image: url('<?php echo URL?>images/slider/slider-img2.jpg');"></div>
+      <!-- <div class="owl-slide" style="background-image: url('<?php echo URL?>images/slider/slider-img2.jpg');"></div>
 
       <div class="owl-slide" style="background-image: url('<?php echo URL?>images/slider/slider-img3.jpg');"></div>
 
@@ -68,7 +68,7 @@ echo $filename;*/
 
       <div class="owl-slide" style="background-image: url('<?php echo URL?>images/slider/slider-img5.jpg');"></div>
 
-      <div class="owl-slide" style="background-image: url('<?php echo URL?>images/slider/slider-img6.jpg');"></div-->
+      <div class="owl-slide" style="background-image: url('<?php echo URL?>images/slider/slider-img6.jpg');"></div> -->
 
     </div>
 
